@@ -2,8 +2,8 @@ import React from "react";
 
 const Creative = () => {
   return (
-    <div className="h-[70vh] flex items-center justify-center flex-col">
-      <div className="text-[white] text-5xl font-bold text-center mx-80">
+    <div className="h-[70vh] flex items-center justify-center flex-col xs:">
+      <div className="lg:text-[white] text-5xl font-bold text-center mx-80 sm:text-xl text-xl">
         <p>Creative Home Simpify Your Furniture</p>
       </div>
       <div className="text-md text-gray-200 pt-7 text-center mx-96">

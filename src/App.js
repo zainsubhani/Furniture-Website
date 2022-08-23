@@ -1,7 +1,6 @@
 import React from "react";
 import background from "../src/assets/images/backgroundimage.jpg";
 import Navbar from "./Components/Navbar";
-import { useState } from "react";
 import Creative from "./Components/Creative";
 import Year from "./Components/YearExperience";
 import Home from "./Components/home";
@@ -18,6 +17,9 @@ import img6 from "./assets/images/productimgs/product6.jpg";
 import ShowMore from "./Components/button";
 import AboutUs from "./Components/About";
 import Images1 from "./Components/Images";
+import Discount from "./Components/Discount";
+import Footer from "./Components/Footer";
+
 const App = () => {
   const productdata = [
     { id: 1, img: img1, name: "Wood Chair", sprice: "$500", eprice: "800" },
@@ -119,6 +121,8 @@ const App = () => {
           <Images1 />
         </div>
       </div>
+      <Discount />
+      <Footer />
     </div>
   );
 };
